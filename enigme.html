@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Entete de la page -->
+    <meta charset="utf-8" />
+    <title>Page d'enigme</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body class="body">
+    <a href="accueil.html" class="headers notextdecoration">
+        <p class="titre">
+            Anniversaire de Pauline
+        </p>
+    </a>
+    <div id="corps" class="corps">
+        <div class="top">
+            <p class="texte_center" id="explication"></p>
+            <img id="photo" class="taille_photo">
+        </div>
+
+        <div class="cases">
+            <div class="left">
+                <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                <div class="elfsight-app-ac96d62d-9e39-449a-a826-0fc4a16339a1"></div>
+            </div>
+            <div>
+                <div class="center">
+                    <label for="myInput">Entre la réponse du jour :</label>
+                    <input type="text" id="myInput" name="myInput">
+                    <button class="valider" onclick="handleSubmit()">Valider</button>
+                    <br>
+                </div>
+                <p class="texte_center" id="erreur"></p>
+                <div class="center">
+                    <button class="bouton_gage" onclick="handleSubmit2()">Je n'ai pas réussi, je choisis le gage</button>
+                </div>
+                <p class="texte_center" id="gage"></p>
+            </div>
+
+            <div class="right">
+                <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                <div class="elfsight-app-3c62fb91-c227-44a8-b848-1f3c8697086c"></div>
+            </div>
+        </div>
+    </div>
+    <div class="compteur">
+        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+        <div class="elfsight-app-aa90fb96-d9ff-47ba-a7a2-2b815c1b9d26"></div>
+    </div>
+
+
+
+</body>
+
+
+<script src="./enigme.js"></script>
+
+</html>

@@ -1,0 +1,242 @@
+.body {
+  background-color: #F4EDDE;
+
+}
+
+.cases {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1%;
+  font-family: 'Calibri';
+}
+
+.headers {
+
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3D3D2;
+
+}
+
+.titre{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  font-style: oblique;
+  font-family: 'Calibri';
+}
+
+.zone-cote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+
+}
+
+.zone-centre {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.valider{
+  display: inline-block;
+  background-color: green;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bouton_gage{
+  display: inline-block;
+  background-color: #FF0020;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container {
+  overflow: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  width: 90vw;
+  height: 300px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* Définit 6 colonnes de largeur égale */
+  grid-template-rows: repeat(5, 1fr);
+  /* Définit 6 lignes de hauteur égale */
+  gap: 10px;
+  /* Ajoute un espacement de 10px entre chaque élément */
+}
+
+.notextdecoration {
+  text-decoration: none;
+  color: black;
+}
+
+.grid-item {
+  padding: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: oblique;
+}
+
+.grid-item1 {
+  background-color: #B5C3CE;
+
+}
+
+.grid-item2 {
+  background-color: #A0B8C3;
+
+}
+
+.grid-item3 {
+  background-color: #D4B6C0;
+
+}
+
+.grid-item4 {
+  background-color: #F3D3D2;
+
+}
+
+.grid-item5 {
+  background-color: #FAE2E0;
+}
+
+.gage {
+  background-color: red;
+}
+
+
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.texte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.felicitation {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: xx-large;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+.reussi {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-style: oblique;
+  display:flex;
+  text-align: center;
+}
+
+.mot{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  font-style: oblique;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.texte_center{
+  text-align: center;
+}
+
+.taille_photo{
+  width: 80vw;
+  height: auto;
+}
+
+.corps{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.souvenir{
+  width: 80vw;
+  height: auto;
+}
+
+.center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width:800px) {
+  .container {
+    width: 80%;
+  }
+  .responsive-iframe {
+    height: 75vh;
+  }
+  .cases{
+    flex-direction: row;
+  }
+
+  .taille_photo{
+    width: 75vh;
+    height: auto;
+  }
+
+  .souvenir{
+    width: 75vh;
+    height: auto;
+  }
+
+  .titre{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xxx-large;
+    font-style: oblique;
+    font-family: 'Calibri';
+  }
+
+  .felicitation {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xxx-large;
+    font-style: oblique;
+    text-decoration: underline;
+  }
+
+  .reussi {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-style: oblique;
+  }
+}
