@@ -246,10 +246,10 @@ var url = new URL(window.location.href);
 var day = url.searchParams.get("day");
 
 
-//if (differenceEnJours('2023-06-21')<day){
+//if (differenceEnJours('2023-06-21') < day) {
   //  var body = document.getElementById("corps")
-    //body.innerHTML = "N'essaye pas de tricher !";
-//}else{
+    //body.innerHTML = "¡ N'essaye pas de tricher !";
+//} else {
     window.onload = doStuff;
 //}
 
@@ -260,7 +260,7 @@ function doStuff() {
     e.innerHTML = dictionnaire[String(day)]["enigme"];
     var photo = document.getElementById("photo");
     console.log(photo);
-    if (dictionnaire[String(day)]["photo enigme"]!=""){
+    if (dictionnaire[String(day)]["photo enigme"] != "") {
         photo.src = "./Photos/" + dictionnaire[String(day)]["photo enigme"];
     }
 }
@@ -274,35 +274,35 @@ function handleSubmit() {
         location.href = 'reussie.html?day=' + String(day);
     } else {
         var message = document.getElementById("erreur");
-        message.innerHTML ="Ce n'est pas la bonne réponse";
+        message.innerHTML = "Ce n'est pas la bonne réponse";
     }
 }
 
 
 function handleSubmit2() {
-   var gage = document.getElementById('gage');
-   gage.innerHTML =dictionnaire[String(day)]["gage"];
+    var gage = document.getElementById('gage');
+    gage.innerHTML = dictionnaire[String(day)]["gage"];
 }
 
 
 function differenceEnJours(date) {
     // Convertir la date donnée en objet Date
     const dateDonnee = new Date(date);
-  
+
     // Obtenir la date du jour
     const dateDuJour = new Date();
-  
+
     // Calculer la différence en millisecondes entre les deux dates
     const differenceEnMilliseconds = dateDuJour - dateDonnee;
-  
+
     // Convertir la différence en jours
     const differenceEnJours = Math.floor(differenceEnMilliseconds / (1000 * 60 * 60 * 24));
-  
+
     // Retourner la différence en jours
-    return differenceEnJours+1;
-  }
-  
-  // Exemple d'utilisation :
-  const dateDonnee = '2023-05-10'; // Date donnée au format YYYY-MM-DD
-  const difference = differenceEnJours(dateDonnee);
-  console.log(difference);
+    return differenceEnJours + 1;
+}
+
+// Exemple d'utilisation :
+const dateDonnee = '2023-05-10'; // Date donnée au format YYYY-MM-DD
+const difference = differenceEnJours(dateDonnee);
+console.log(difference);
