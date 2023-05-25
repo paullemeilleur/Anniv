@@ -125,13 +125,7 @@
 
 }
 
-.corps {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  font-size: x-large;
-  font-family: 'Calibri';
-}
+
 
 .grid-item5 {
   background-color: #FAE2E0;
