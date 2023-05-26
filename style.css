@@ -13,6 +13,8 @@
   font-family: 'Calibri';
 }
 
+
+
 .headers {
 
   display: flex;
@@ -49,6 +51,15 @@
   display: flex;
   justify-content: center;
 }
+
+.left{
+  display:none;
+}
+
+.right{
+  display:none;
+}
+
 
 .valider{
   display: inline-block;
@@ -240,5 +251,13 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
     font-style: oblique;
+  }
+
+  .left{
+    display:block;
+  }
+  
+  .right{
+    display:block;
   }
 }
