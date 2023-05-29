@@ -152,9 +152,9 @@ const dictionnaire = {
         "indice obtenu": "Spectaculaire"
     },
     "20": {
-        "enigme": "Débrouille toi: <br> <br>01110000 01101111 01110010 01110100 ",
-        "reponse": "port",
-        "gage": "Raconte une histoire dossier de toi sur le groupe Entre Copains.",
+        "enigme": "Tu as une devinette. Il faut la résoudre puis te rendre à ce lieu pour y trouver quelque chose.<br>Voici la devinette:<br><br>Je suis une pièce de la maison,<br>Mais je ne suis pas tout à fait à l'intérieur.<br>Je suis faite de verre et de métal,<br>Et je suis souvent utilisée pour profiter du soleil.<br><br>Quel est ce lieu mystérieux ?",
+        "reponse": "blinis",
+        "gage": "Envoie un message gênant à ton père, ta mère ou ta soeur. (Le message te sera indiqué par Paul)",
         "photo enigme": "",
         "photo souvenir": "Jour20.jpg",
         "indice obtenu": "Agilité"
@@ -168,9 +168,9 @@ const dictionnaire = {
         "indice obtenu": "Etoile"
     },
     "22": {
-        "enigme": "Tu as une devinette. Il faut la résoudre puis te rendre à ce lieu pour y trouver quelque chose.<br>Voici la devinette:<br><br>Je suis une pièce de la maison,<br>Mais je ne suis pas tout à fait à l'intérieur.<br>Je suis faite de verre et de métal,<br>Et je suis souvent utilisée pour profiter du soleil.<br><br>Quel est ce lieu mystérieux ?",
-        "reponse": "blinis",
-        "gage": "Envoie un message gênant à ton père, ta mère ou ta soeur. (Le message te sera indiqué par Paul)",
+        "enigme": "Débrouille toi: <br> <br>01110000 01101111 01110010 01110100 ",
+        "reponse": "port",
+        "gage": "Raconte une histoire dossier de toi sur le groupe Entre Copains.",
         "photo enigme": "",
         "photo souvenir": "Jour22.jpg",
         "indice obtenu": "Lever"
@@ -216,20 +216,20 @@ const dictionnaire = {
         "indice obtenu": "Tapas"
     },
     "28": {
-        "enigme": " Débrouille toi: <br><br>39,46615° N, 0,38013° O",
-        "reponse": "valence",
-        "gage": "Filme toi en train de faire du gainage en public. Et envoie la vidéo sur le groupe Entre Copains.",
-        "photo enigme": "",
-        "photo souvenir": "Jour28.jpg",
-        "indice obtenu": "Etang"
-    },
-    "29": {
         "enigme": "Va dans la réserve. <br> Tu dois y trouver un objet et rentrer le mot contenu à l'intérieur",
         "reponse": "salin",
         "gage": "Filme toi en train de chanter une chanson de ton choix. <br> Et envoie la vidéo sur le groupe Entre Copains.",
         "photo enigme": "",
-        "photo souvenir": "Jour29.jpg",
+        "photo souvenir": "Jour28.jpg",
         "indice obtenu": "Bouïs"
+    },
+    "29": {
+        "enigme": " Débrouille toi: <br><br>39,46615° N, 0,38013° O",
+        "reponse": "valence",
+        "gage": "Filme toi en train de faire du gainage en public. Et envoie la vidéo sur le groupe Entre Copains.",
+        "photo enigme": "",
+        "photo souvenir": "Jour29.jpg",
+        "indice obtenu": "Etang"
     },
     "30": {
         "enigme": "enigme 30",
@@ -246,7 +246,7 @@ var url = new URL(window.location.href);
 var day = url.searchParams.get("day");
 
 
-//if (differenceEnJours('2023-05-21') < day) {
+//if (differenceEnJours('2023-06-21') < day) {
   //  var body = document.getElementById("corps")
     //body.innerHTML = "¡ N'essaye pas de tricher !";
 //} else {
