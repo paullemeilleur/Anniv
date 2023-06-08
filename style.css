@@ -13,7 +13,20 @@
   font-family: 'Calibri';
 }
 
+.compteur{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.heures{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Calibri';
+  color: grey;
+}
 
 .headers {
 
