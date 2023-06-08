@@ -246,12 +246,12 @@ var url = new URL(window.location.href);
 var day = url.searchParams.get("day");
 
 
-//if (differenceEnJours('2023-06-21') < day) {
-  //  var body = document.getElementById("corps")
-    //body.innerHTML = "¡ N'essaye pas de tricher !";
-//} else {
+if (differenceEnJours('2023-06-21') < day) {
+    var body = document.getElementById("corps")
+    body.innerHTML = "¡ N'essaye pas de tricher !";
+} else {
     window.onload = doStuff;
-//}
+}
 
 
 function doStuff() {
