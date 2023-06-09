@@ -207,6 +207,11 @@
   height: auto;
 }
 
+.meteo{
+  width:fit-content;
+  height: fit-content;
+}
+
 .corps{
   display:flex;
   flex-direction: column;
