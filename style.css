@@ -212,6 +212,8 @@
   flex-direction: column;
   justify-content: center;
   justify-content: space-between;
+  text-align:center;
+  font-size: x-large;
 }
 
 .souvenir{
