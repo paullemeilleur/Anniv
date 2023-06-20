@@ -1,5 +1,5 @@
 const dictionnaire = {
-    "1": {
+    "3": {
         "enigme": "Tu as une devinette. Il faut la résoudre puis te rendre à ce lieu pour y trouver quelque chose.<br>Voici la devinette:<br><br>Je suis une pièce où l'on se ressource,<br>Le jour on peut y lire ou y travailler,<br>La nuit on s'y repose en toute force,<br>Et dans cette pièce, on peut même rêver.<br><br>De moi on peut voir le jour et la nuit,<br>Mais on ne m'y prépare ni repas ni gâteaux,<br>Mon nom est court, mais pas comme l'ennui,<br>Et dans la maison, je suis un endroit haut.<br><br>Quelle est cette pièce que je vous ai décrite ?",
         "reponse": "justaucorps",
         "gage": "Poste une photo dossier en story insta. (La photo doit être validée par Paul)",
@@ -15,7 +15,7 @@ const dictionnaire = {
         "photo souvenir": "Jour2.jpg",
         "indice obtenu": "Contemporain"
     },
-    "3": {
+    "1": {
         "enigme": "Résous les mots fléchés et rentre le mot en jaune.",
         "reponse": "vacances",
         "gage": "Filme toi en train de faire du gainage en public. Et envoie la vidéo sur le groupe Entre Copains.",
