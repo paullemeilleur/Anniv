@@ -55,7 +55,7 @@ const dictionnaire = {
         "photo souvenir": "Jour7.jpg",
         "indice obtenu": "Costumes"
     },
-    "8": {
+    "10": {
         "enigme": "Tu as une devinette. Il faut la résoudre puis te rendre à ce lieu pour y trouver quelque chose.<br>Voici la devinette:<br><br>Je suis un lieu de rassemblement pour les repas,<br>Où l'on s'attable pour partager un festin.<br>Mon nom est composé de deux mots,<br>Le premier évoque un espace clos et le second un acte de nourriture.<br><br>Quel est ce lieu mystérieux ?",
         "reponse": "grand jeté",
         "gage": "Filme toi en train de faire du gainage en public. Et envoie la vidéo sur le groupe Entre Copains.",
@@ -71,7 +71,7 @@ const dictionnaire = {
         "photo souvenir": "Jour9.jpg",
         "indice obtenu": "Lumières"
     },
-    "10": {
+    "8": {
         "enigme": " Débrouille toi:<br><br>01100011 01101111 01101100 01101111 01110000 01101000 01100001 01101110 01100101",
         "reponse": "colophane",
         "gage": "Raconte une histoire dossier de toi sur le groupe Entre Copains.",
