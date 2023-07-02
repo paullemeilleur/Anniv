@@ -88,7 +88,7 @@ const dictionnaire = {
         "indice obtenu": "Terre"
     },
     "12": {
-        "enigme": "Débrouille toi:<br><br> 0x 64C3A9676167C3A9",
+        "enigme": "Débrouille toi:<br><br> 0x 646567616765",
         "reponse": "dégagés",
         "gage": "Envoie un message gênant à ton père, ta mère ou ta soeur. (Le message te sera indiqué par Paul)",
         "photo enigme": "",
