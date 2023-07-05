@@ -111,13 +111,13 @@ const dictionnaire = {
         "photo souvenir": "Jour14.jpg",
         "indice obtenu": "Population"
     },
-    "15": {
+    "17": {
         "enigme": "Rends toi à la tour Barberousse et compte le nombre de bancs qu'il y a dans la zone.<br> Rentre ce nombre en toutes lettres.",
         "reponse": "deux",
         "gage": "Raconte une histoire dossier de toi sur le groupe Entre Copains.",
         "photo enigme": "",
-        "photo souvenir": "Jour15.jpg",
-        "indice obtenu": "Foule"
+        "photo souvenir": "Jour17.jpg",
+        "indice obtenu": "Voltige"
     },
     "16": {
         "enigme": "J'espère que tu avais bien noté les indices des 5 derniers jours (uniquement les 5 derniers, pas les précédents) car tu vas en avoir besoin aujourd'hui.<br> Les 5 mots se rèferent à un même thème.<br> A toi de le retrouver et de le rentrer dans la zone.",
@@ -127,13 +127,13 @@ const dictionnaire = {
         "photo souvenir": "Jour16.jpg",
         "indice obtenu": "Cascade"
     },
-    "17": {
+    "15": {
         "enigme": " Aujourd'hui, il faut que tu résolves les mots fléchés suivants. <br>Une fois résolut, il faudra que tu retrouves le mot caché avec les lettres soulignées.<br> Bon courage :)",
         "reponse": "barre",
         "gage": "Envoie un message gênant à ton père, ta mère ou ta soeur. (Le message te sera indiqué par Paul)",
-        "photo enigme": "photo17.jpg",
-        "photo souvenir": "Jour17.jpg",
-        "indice obtenu": "Voltige"
+        "photo enigme": "photo15.jpg",
+        "photo souvenir": "Jour15.jpg",
+        "indice obtenu": "Foule"
     },
     "18": {
         "enigme": " Débrouille toi:<br><br> 43,10450° N, 3,08627° E",
