@@ -232,8 +232,8 @@ const dictionnaire = {
         "indice obtenu": "Etang"
     },
     "30": {
-        "enigme": "enigme 30",
-        "reponse": "villemachoise",
+        "enigme": "Joyeux anniversaire ! ❤️ <br> Pour la dernière énigme tu verras aujourd'hui...",
+        "reponse": "cirque du soleil",
         "gage": "Raconte une histoire dossier de toi sur le groupe Entre Copains.",
         "photo enigme": "",
         "photo souvenir": "Jour30.jpg",
